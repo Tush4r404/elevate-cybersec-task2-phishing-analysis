@@ -1,11 +1,14 @@
-==========================
-        EMAIL HEADERS
-==========================
+==================================================
+                PHISHING EMAIL ANALYSIS
+==================================================
+
+
+***************  EMAIL HEADERS  ***************
 
 Return-Path: <support@paypa1.com>
 Received: from suspiciousserver.com (unknown [185.24.233.12])
-	by yourmailserver.com (Postfix) with ESMTPS id 4DFD83125F
-	for <victim@example.com>; Mon, 1 Jul 2025 09:42:16 +0530 (IST)
+    by yourmailserver.com (Postfix) with ESMTPS id 4DFD83125F
+    for <victim@example.com>; Mon, 1 Jul 2025 09:42:16 +0530 (IST)
 Date: Mon, 1 Jul 2025 09:41:50 +0530
 From: PayPal Security <support@paypa1.com>
 Reply-To: support@paypa1.com
@@ -16,9 +19,7 @@ MIME-Version: 1.0
 Content-Type: text/html; charset=UTF-8
 
 
-==========================
-         EMAIL BODY
-==========================
+***************  EMAIL BODY  ***************
 
 Dear Customer,
 
@@ -26,10 +27,12 @@ We have detected suspicious activity on your PayPal account. For your protection
 
 To restore access, please click the link below and verify your information immediately:
 
-http://paypal-security-alert.com/verify
+👉 http://paypal-security-alert.com/verify
 
-If you do not complete verification within 24 hours, your account will be permanently locked.
+⚠️ If you do not complete verification within 24 hours, your account will be permanently locked.
 
 Thank you for choosing PayPal.
 
 PayPal Security Team
+
+==================================================
