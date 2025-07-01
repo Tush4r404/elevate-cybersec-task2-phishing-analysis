@@ -1,0 +1,31 @@
+Phishing Email Sample for AnalysisBelow is a complete phishing email sample. You can use the "Email Body" for your visual inspection and the "Email Headers" for your technical analysis with an online tool.Email Headers:Delivered-To: lucky.user@gmail.com
+Received: by 2002:a05:620a:10c9:0:0:0:0 with SMTP id a9csp310842qkl;
+        Tue, 30 Jun 2025 10:02:47 -0700 (PDT)
+X-Google-Smtp-Source: AGBTgZvHj8C5l...
+X-Received: by 2002:a5d:4345:: with SMTP id m5mr5413899ior.115.1656608566214;
+        Tue, 30 Jun 2025 10:02:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1656608566; cv=none;
+        d=google.com; s=arc-20160816;
+        b=someRandomCharacters...
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:from:date;
+        bh=someHashValue...;
+        b=anotherRandomSignature...
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=fail (google.com: domain of support@microsft-security.com does not designate 198.51.100.45 as a permitted sender) smtp.mailfrom=support@microsft-security.com
+Return-Path: <support@microsft-security.com>
+Received: from mail.suspicious-server.net (mail.suspicious-server.net. [198.51.100.45])
+        by mx.google.com with ESMTP id x20si5581189iof.14.2025.06.30.10.02.45
+        for <lucky.user@gmail.com>;
+        Tue, 30 Jun 2025 10:02:46 -0700 (PDT)
+Received-SPF: fail (google.com: domain of support@microsft-security.com does not designate 198.51.100.45 as a permitted sender) client-ip=198.51.100.45;
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of support@microsft-security.com does not designate 198.51.100.45 as a permitted sender) smtp.mailfrom=support@microsft-security.com
+Date: Tue, 30 Jun 2025 17:02:44 +0000
+From: "Microsoft Support" <support@microsoft.com>
+Reply-To: "Scammer" <scammer.info@yahoo.com>
+Subject: Urgent Security Alert: Unusual Sign-in Activity
+Message-ID: <a1b2c3d4e5f6@mail.suspicious-server.net>
+To: "Valued Customer" <lucky.user@gmail.com>
+Content-Type: text/html; charset="UTF-8"
+Email Body:(Subject: Urgent Security Alert: Unusual Sign-in Activity)Dear Valued Customer,We detected an unusual sign-in attempt to your Microsoft account from a new location (IP: 103.55.12.188, Russia).For your security, we have temporarily blocked access to your account. You must verify your identity immediately to prevent your account from being permanently locked.Please click the link below to verify your account and restore access.http://microsft-security-center.com/loginIf you do not take action within 12 hours, your account will be permanently disabled and all data will be lost.Thank you,The Microsoft Security Team
