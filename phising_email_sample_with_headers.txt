@@ -1,4 +1,4 @@
-Phishing Email Sample for AnalysisBelow is a complete phishing email sample. You can use the "Email Body" for your visual inspection and the "Email Headers" for your technical analysis with an online tool.Email Headers:Delivered-To: lucky.user@gmail.com
+Delivered-To: lucky.user@gmail.com
 Received: by 2002:a05:620a:10c9:0:0:0:0 with SMTP id a9csp310842qkl;
         Tue, 30 Jun 2025 10:02:47 -0700 (PDT)
 X-Google-Smtp-Source: AGBTgZvHj8C5l...
@@ -28,4 +28,18 @@ Subject: Urgent Security Alert: Unusual Sign-in Activity
 Message-ID: <a1b2c3d4e5f6@mail.suspicious-server.net>
 To: "Valued Customer" <lucky.user@gmail.com>
 Content-Type: text/html; charset="UTF-8"
-Email Body:(Subject: Urgent Security Alert: Unusual Sign-in Activity)Dear Valued Customer,We detected an unusual sign-in attempt to your Microsoft account from a new location (IP: 103.55.12.188, Russia).For your security, we have temporarily blocked access to your account. You must verify your identity immediately to prevent your account from being permanently locked.Please click the link below to verify your account and restore access.http://microsft-security-center.com/loginIf you do not take action within 12 hours, your account will be permanently disabled and all data will be lost.Thank you,The Microsoft Security Team
+
+Dear Valued Customer,
+
+We detected an unusual sign-in attempt to your Microsoft account from a new location (IP: 103.55.12.188, Russia).
+
+For your security, we have temporarily blocked access to your account. You must verify your identity immediately to prevent your account from being permanently locked.
+
+Please click the link below to verify your account and restore access.
+
+http://microsft-security-center.com/login
+
+If you do not take action within 12 hours, your account will be permanently disabled and all data will be lost.
+
+Thank you,
+The Microsoft Security Team
