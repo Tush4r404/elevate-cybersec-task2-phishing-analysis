@@ -1,38 +1,41 @@
-==================================================
-                PHISHING EMAIL ANALYSIS
-==================================================
+==========================
+EMAIL HEADERS
+==========================
 
+From: security-alert@github-support.com
+To: user@example.com
+Subject: Urgent: Unusual Activity Detected on Your GitHub Account
+Date: Tue, 2 July 2025 11:42:25 -0700
+Return-Path: <noreply@github-alerts.com>
+Received: from unknownhost456.fake.net (unknownhost456.fake.net. [198.51.100.200])
 
-***************  EMAIL HEADERS  ***************
+==========================
+EMAIL BODY
+==========================
 
-Return-Path: <support@paypa1.com>
-Received: from suspiciousserver.com (unknown [185.24.233.12])
-    by yourmailserver.com (Postfix) with ESMTPS id 4DFD83125F
-    for <victim@example.com>; Mon, 1 Jul 2025 09:42:16 +0530 (IST)
-Date: Mon, 1 Jul 2025 09:41:50 +0530
-From: PayPal Security <support@paypa1.com>
-Reply-To: support@paypa1.com
-To: victim@example.com
-Subject: ⚠️ Urgent: Your PayPal Account Has Been Suspended
-Message-ID: <20250701A7A77@suspiciousserver.com>
-MIME-Version: 1.0
-Content-Type: text/html; charset=UTF-8
+Dear GitHub User,
 
+We have detected suspicious login activity on your GitHub account from an unrecognized device.
 
-***************  EMAIL BODY  ***************
+For your security, your account has been temporarily restricted. You must verify your identity to restore full access:
 
-Dear Customer,
+🔗 **https://github-support.com/verify-account**
 
-We have detected suspicious activity on your PayPal account. For your protection, we have temporarily suspended your account.
+Failure to verify your information within 24 hours will result in permanent suspension of your account and deletion of your repositories.
 
-To restore access, please click the link below and verify your information immediately:
+Please do not ignore this security alert.
 
-👉 http://paypal-security-alert.com/verify
+Thank you for being part of the GitHub community.
 
-⚠️ If you do not complete verification within 24 hours, your account will be permanently locked.
+Sincerely,  
+GitHub Security Team
 
-Thank you for choosing PayPal.
+==========================
+IMPORTANT OBSERVATIONS
+==========================
 
-PayPal Security Team
-
-==================================================
+- Sender email appears to be from GitHub but uses 'github-support.com', not the legitimate 'github.com'.
+- Suspicious link: https://github-support.com/verify-account (hover reveals fake domain).
+- Urgent and threatening language: "permanent suspension" and "deletion of repositories".
+- Generic greeting: "Dear GitHub User" instead of your actual username.
+- Return-path domain is unrelated 'github-alerts.com'.
